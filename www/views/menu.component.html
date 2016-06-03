@@ -1,0 +1,24 @@
+<!-- MenuComponent: View for displaying Menu-->
+<h4>Menu:</h4>
+
+<div class="app">
+    <div class="row">
+        <ul class="list-entry">
+            <li *ngFor="let menuEntry of menuSelection" 
+                [class.selected]="menuEntry === selectedEntry"
+                (click)="onSelect(menuEntry)">
+               <!-- <div class="col-xs-3">
+                    <div class="pull-right">
+                        <img src={{menuEntry.image}} height="42px" width="42px"/>
+                    </div>
+                </div>-->
+                <div class="col-xs-9">
+                    <div class="list-text">
+                        <h4>{{menuEntry.title}}</h4>
+                        <!--{{menuEntry.description}}-->
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

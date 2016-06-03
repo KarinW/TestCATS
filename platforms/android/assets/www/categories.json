@@ -1,0 +1,18 @@
+{
+	"categories": [{
+		"id": 1,
+		"title": "stadtpark",
+		"image" : "img/img_sp.png",
+		"description": "Das Stadtpark-Abenteuer führt dich zu besonderen Stellen im Stadtpark..."
+	}, {
+		"id": 2,
+		"title": "tagebuch",
+		"image" : "img/img_tb.png",
+		"description": "Das Baum-Tagebuch lässt dich besondere Funde sammeln..."
+	}, {
+		"id": 3,
+		"title": "werkzeuge",
+		"image" : "img/img_wz.png",
+		"description": "Die Werkzeuge..."
+	}]
+}
